@@ -9,14 +9,15 @@
   flex-wrap: wrap;
 }
 
-.header-container {
-  padding: 3rem 6rem;
-}
-
 .header-nav {
   justify-content: space-between;
   align-items: center;
+  padding: 2rem 0;
   margin-bottom: 120px;
+}
+
+.header {
+  margin-bottom: 90px;
 }
 
 .header h1 {

@@ -1,0 +1,28 @@
+.vr-introducao {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.vr-intro {
+  background: var(--white);
+  padding: 7rem;
+  position: absolute;
+  bottom: -150px;
+  left: 550px;
+}
+
+.vr-intro h1 {
+  max-width: 20ch;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.vr-intro p {
+  max-width: 45ch;
+  line-height: 1.5;
+  color: var(--dark-gray);
+  font-size: 1.3rem;
+}
