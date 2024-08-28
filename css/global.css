@@ -1,0 +1,27 @@
+body, p, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font: 300 2rem/1 "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+p, a {
+  font: 400 1rem/1 "Alata", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}

@@ -1,0 +1,42 @@
+.header-bg {
+  background: url("../images/desktop/image-hero.jpg") no-repeat center/cover;
+  height: 100vh;
+}
+
+.header-nav,
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-container {
+  padding: 3rem 6rem;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.header h1 {
+  color: var(--white);
+  max-width: 13ch;
+  line-height: 1.2;
+  font-size: 4rem;
+  border: 3px solid var(--white);
+  padding: 2rem 2.5rem;
+}
+
+.header-menu {
+  gap: 20px;
+}
+
+.header-menu a {
+  color: var(--white);
+  transition: 0.2s;
+}
+
+.header-menu a:hover {
+  transform: scale(1.1);
+}
