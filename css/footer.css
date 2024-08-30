@@ -1,0 +1,51 @@
+.footer-bg {
+  background: var(--black);
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: var(--white);
+}
+
+.footer p {
+  color: var(--dark-gray);
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+  gap: 50px;
+}
+
+.footer-menu, .footer-redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-menu a {
+  font-size: 1.2rem;
+  transition: .2s;
+}
+
+.footer-menu a:hover {
+  transform: scale(1.1);
+}
+
+.footer-redes {
+  justify-content: end;
+}
+
+.footer-redes a {
+  transition: .2s;
+}
+
+.footer-redes a:hover {
+  transform: scale(1.1);
+}
