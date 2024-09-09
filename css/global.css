@@ -30,3 +30,11 @@ a {
   padding-left: 6rem;
   padding-right: 6rem;
 }
+
+@media (max-width: 375px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+}

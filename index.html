@@ -15,13 +15,18 @@
 </head>
 
 <body>
-  <header class="header container header-bg">
+  <header data-header="header-bg" class="header container header-bg">
     <div class="header-nav">
       <div>
         <a href=""><img src="./images/logo.svg" alt="Loopstudios"></a>
       </div>
+      <div data-header="btn-menu" class="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <nav>
-        <ul class="header-menu">
+        <ul data-header="menu" class="header-menu">
           <li><a href="#about">About</a></li>
           <li><a href="#careers">Careers</a></li>
           <li><a href="#events">Events</a></li>
@@ -113,7 +118,7 @@
       </div>
     </div>
   </footer>
-
+<script src="./script.js"></script>
 </body>
 
 </html>
