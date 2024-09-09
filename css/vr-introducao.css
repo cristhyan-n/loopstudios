@@ -26,3 +26,27 @@
   color: var(--dark-gray);
   font-size: 1.3rem;
 }
+
+@media (max-width: 375px) {
+  .vr-introducao {
+    margin-bottom: 80px;
+  }
+
+  .vr-pic {
+    margin-bottom: 60px;
+  }
+  .vr-intro {
+    position: initial;
+    padding: initial;
+    text-align: center;
+  }
+  .vr-intro h1 {
+    max-width: initial;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .vr-intro p {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+}

@@ -51,6 +51,9 @@
     background: url("../images/mobile/image-hero.jpg") no-repeat center/cover;
     height: 70vh;
   }
+  .header {
+    margin-bottom: 60px;
+  }
 
   .header-nav {
     padding: 1.2rem 0;
@@ -65,10 +68,11 @@
     display: none;
   }
 
-  .header-nav img, .mobile-menu {
+  .header-nav img,
+  .mobile-menu {
     position: relative;
     z-index: 1;
-  } 
+  }
 
   .mobile-menu {
     display: flex;
@@ -86,7 +90,7 @@
     height: 3px;
     width: 30px;
     border-radius: 5px;
-    transition: .2s;
+    transition: 0.2s;
   }
 
   .mobile-menu.ativo span:first-child {
@@ -100,8 +104,6 @@
   .mobile-menu.ativo span:nth-child(2) {
     display: none;
   }
-
-
 
   .header-menu.ativo {
     display: flex;
